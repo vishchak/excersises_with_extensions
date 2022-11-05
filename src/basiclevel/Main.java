@@ -1,6 +1,16 @@
 package basiclevel;
 
 public class Main {
+    /**
+     * Create class Animal
+     * with fields: ration, color, weight
+     * Methods: default, getVoice, eat, sleep
+     * Create classes Dog, Cat that extend Animal
+     * Add field: name; override methods
+     * Create class veterinarian
+     * Field: name
+     * Methods: default, treatment
+     */
     public static void main(String[] args) {
         Animal animal = new Animal(150, "cucumber", "grey");
 
